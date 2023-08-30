@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -x \"node index.js || copy /b index.js +,,\""
+    "start": "nodemon -x \"ts-node index.ts || copy /b index.ts +,,\" --ext \"ts,json\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.7.1"
+    "discord.js": "^14.7.1",
+    "ts": "^0.0.0"
   }
 }
